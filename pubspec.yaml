@@ -1,0 +1,39 @@
+name: music_showcase
+description: Music app demo matching provided design.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  provider: ^6.0.5
+  just_audio: ^0.9.35
+  cached_network_image: ^3.2.3
+  google_fonts: ^4.0.3
+  flutter_svg: ^2.2.2
+  just_waveform: ^0.0.7
+  audio_waveforms: ^1.3.0
+  path_provider: ^2.1.5
+  file_picker: ^10.3.3
+  chat_bubbles: ^1.7.0
+  flutter_phoenix: ^1.1.1
+  wave: ^0.2.2
+  flutter_audio_waveforms: ^1.2.1+8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Background.svg
+    - assets/images/left.svg
+    - assets/images/right.svg
+    - assets/images/right1.svg
+    - assets/images/right2.svg
+    - assets/images/default.avif
